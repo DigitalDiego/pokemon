@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pokemon-cards/static/css/main.81593c42.chunk.css",
+    "main.js": "/pokemon-cards/static/js/main.141a6456.chunk.js",
+    "main.js.map": "/pokemon-cards/static/js/main.141a6456.chunk.js.map",
+    "runtime-main.js": "/pokemon-cards/static/js/runtime-main.5b813933.js",
+    "runtime-main.js.map": "/pokemon-cards/static/js/runtime-main.5b813933.js.map",
+    "static/js/2.186692e8.chunk.js": "/pokemon-cards/static/js/2.186692e8.chunk.js",
+    "static/js/2.186692e8.chunk.js.map": "/pokemon-cards/static/js/2.186692e8.chunk.js.map",
+    "static/js/3.b1642754.chunk.js": "/pokemon-cards/static/js/3.b1642754.chunk.js",
+    "static/js/3.b1642754.chunk.js.map": "/pokemon-cards/static/js/3.b1642754.chunk.js.map",
+    "index.html": "/pokemon-cards/index.html",
+    "static/css/main.81593c42.chunk.css.map": "/pokemon-cards/static/css/main.81593c42.chunk.css.map",
+    "static/js/2.186692e8.chunk.js.LICENSE.txt": "/pokemon-cards/static/js/2.186692e8.chunk.js.LICENSE.txt",
+    "static/media/PokemonLogo.e61842b2.png": "/pokemon-cards/static/media/PokemonLogo.e61842b2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b813933.js",
+    "static/js/2.186692e8.chunk.js",
+    "static/css/main.81593c42.chunk.css",
+    "static/js/main.141a6456.chunk.js"
+  ]
+}
