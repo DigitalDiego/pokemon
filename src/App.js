@@ -2,7 +2,9 @@ import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import Pokemon from './Pokemon'
 import Logo from './PokemonLogo.png'
+import {AiOutlineArrowUp} from 'react-icons/ai'
 import './App.css'
+
 const App = () => {
   const [pokemon, setPokemon] = useState([]);
   const [search, setSearch] = useState('');
@@ -18,6 +20,9 @@ const App = () => {
   const filteredPokemon = pokemon.filter(item => (
     item.name.toLowerCase().includes(search.toLowerCase())
   ));
+  const scrollUp = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div>
       <header>
@@ -28,6 +33,9 @@ const App = () => {
           {filteredPokemon.map(item => (
             <Pokemon name={item.name} set={item.set.name} image={item.images.small}/>
           ))}
+      </div>
+      <div className="scroll-up">
+            <AiOutlineArrowUp className='arrow' onClick={scrollUp}/>
       </div>
     </div>
   )

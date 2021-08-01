@@ -21,7 +21,7 @@ header {
 .logo {
   min-width: 200px;
   min-height: 110px;
-  max-width: 228px;
+  max-width: 280px;
   max-height: 150px;
 }
 input {
@@ -45,6 +45,23 @@ input::placeholder {
   place-items: center;
   margin-top: 2em;
 }
+.scroll-up {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #2a2a2a;
+  display: grid;
+  place-items: center;
+}
+.scroll-up * {
+  color: #fff;
+}
+.arrow {
+  font-size: 1em;
+}
 @media only screen and (min-width: 800px) {
   .logo {
     height: 200px;
@@ -53,6 +70,24 @@ input::placeholder {
   }
   input {
     font-size: 1em;
+  }
+  .scroll-up {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background: #2a2a2a;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+  }
+  .scroll-up * {
+    color: #fff;
+  }
+  .arrow {
+    font-size: 1.5em;
   }
 }
 @media only screen and (min-width: 1800px) {
