@@ -37,11 +37,11 @@ input::placeholder {
 .container {
   width: 100%;
   min-height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  grid-gap: 1em;
+  place-items: center;
+  margin-top: 2em;
 }
 @media only screen and (min-width: 800px) {
   .logo {
@@ -52,19 +52,9 @@ input::placeholder {
   input {
     font-size: 1em;
   }
-  .container {
-    width: 100%;
-    min-height: 80vh;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2em;
-  }
 }
 @media only screen and (min-width: 1800px) {
   .logo {
     width: 20%;
-  }
-  .container {
-    grid-template-columns: repeat(5, 1fr);
   }
 }
