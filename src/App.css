@@ -91,6 +91,9 @@ input::placeholder {
   }
 }
 @media only screen and (min-width: 1800px) {
+  body {
+    padding: 0 3em;
+  }
   .logo {
     width: 20%;
   }

@@ -27,7 +27,7 @@ const App = () => {
     <div>
       <header>
         <img src={Logo} alt="image" className='logo'/>
-        <input type="text" placeholder='Pokemon' onChange={handleChange}/>
+        <input type="text" placeholder='Search Pokemon' onChange={handleChange}/>
       </header>
       <div className="container">
           {filteredPokemon.map(item => (
