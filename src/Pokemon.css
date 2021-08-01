@@ -36,7 +36,6 @@
 }
 .pokemon-image {
   object-fit: contain;
-  transition: all 0.2s linear;
 }
 @media only screen and (min-width: 800px) {
   .desc {

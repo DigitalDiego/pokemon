@@ -19,8 +19,10 @@ header {
   flex-direction: column;
 }
 .logo {
-  width: 55%;
-  height: 110px;
+  min-width: 200px;
+  min-height: 110px;
+  max-width: 228px;
+  max-height: 150px;
 }
 input {
   padding: 0.5em 1em;
