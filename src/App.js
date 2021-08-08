@@ -34,8 +34,8 @@ const App = () => {
             <Pokemon name={item.name} set={item.set.name} image={item.images.small}/>
           ))}
       </div>
-      <div className="scroll-up">
-            <AiOutlineArrowUp className='arrow' onClick={scrollUp}/>
+      <div className="scroll-up" onClick={scrollUp}>
+            <AiOutlineArrowUp className='arrow'/>
       </div>
     </div>
   )
